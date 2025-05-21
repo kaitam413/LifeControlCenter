@@ -1,50 +1,69 @@
+/*  General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: #1a1a1a;
+    color: #ff8000;
 }
 
+/* Top Nar Styling */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #000;
+    color: #ff8000;
     padding: 15px;
 }
 
+/* Style Nav Links */
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: #ff8000;
+    font-size: 18px;
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #ffaa33;
+}
+
+/* Banner at Top */
 .hero {
-    background-color: #007bff;
-    color: white;
+    background-color: #222;
+    color: #ff8000;
     padding: 50px;
 }
 
+/* Button Styling */
 .hero button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: white;
+    background-color: #ff8000;
+    color: #000;
     border: none;
     cursor: pointer;
 }
 
+.hero button:hover {
+    background-color: #ffaa33;
+}
+
+/* Life Score Section */
 .life-score {
     padding: 30px;
 }
 
+/* Footer Styling */
 footer {
     background-color: #333;
     color: white;
